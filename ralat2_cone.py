@@ -13,7 +13,7 @@ def dapat_jejari_tinggi():
 #math.sqrt是math.square root 的缩写
 def kira_luas_permukaan_kon(r, h):
     luas_permukaan_kon = (pi * r) * (r + math.sqrt(r**2 + h**2))
-    return round(luass_permukaan_kon, 2)
+    return round(luas_permukaan_kon, 2)
 
 def main():
     (x, y) = dapat_jejari_tinggi()
